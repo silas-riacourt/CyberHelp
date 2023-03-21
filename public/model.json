@@ -1,0 +1,70 @@
+{
+    "conseils": [
+        {
+            "id": 1,
+            "titre": "Avoir un mot de passe complex",
+            "description": "ckdslfdsichdsufcjhxcjsujhcsghckgshqchdsvchjvsqhfcdsvjfcjdsbfsdjb",
+            "tags": [
+                "password",
+                "users"
+            ]
+        },
+        {
+            "id": 2,
+            "titre": "Exemple conseil perso",
+            "description": "ckdslfdsichdsufcjhxcjsujhcsghckgshqchdsvchjvsqhfcdsvjfcjdsbfsdjb",
+            "tags": [
+                "particulier",
+                "users"
+            ]
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "question": "Quel type de personne êtes-vous ?",
+            "answers": [
+                {
+                    "text": "Particulier",
+                    "tags": "particulier",
+                    "nextQuestion": 2
+                },
+                {
+                    "text": "Professionnel",
+                    "tags": "pro",
+                    "nextQuestion": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Utilisez-vous souvent le wifi ?",
+            "answers": [
+                {
+                    "text": "Oui",
+                    "tags": "wifi",
+                    "nextQuestion": 3
+                },
+                {
+                    "text": "Non",
+                    "tags": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Utilisez-vous souvent des wifis publics (resto, etc) ?",
+            "answers": [
+                {
+                    "text": "Oui",
+                    "tags": "wifi-public",
+                    "nextQuestion": 2
+                },
+                {
+                    "text": "Non",
+                    "tags": ""
+                }
+            ]
+        }
+    ]
+}

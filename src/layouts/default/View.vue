@@ -1,5 +1,5 @@
 <template>
-  <v-main>
+  <v-main class="d-flex">
     <v-row justify="center" align="center">
       <v-col cols="8" class="text-center">
     <router-view class="mt-4"/>
