@@ -1,5 +1,5 @@
 {
-    "conseils": [
+    "advices": [
         {
             "id": 1,
             "titre": "Avoir un mot de passe complex",
@@ -25,12 +25,12 @@
             "question": "Quel type de personne êtes-vous ?",
             "answers": [
                 {
-                    "text": "Particulier",
+                    "text": "Je suis un particulier",
                     "tags": "particulier",
                     "nextQuestion": 2
                 },
                 {
-                    "text": "Professionnel",
+                    "text": "Je suis un professionnel",
                     "tags": "pro",
                     "nextQuestion": 3
                 }
@@ -38,31 +38,97 @@
         },
         {
             "id": 2,
-            "question": "Utilisez-vous souvent le wifi ?",
+            "question": "Disposez-vous d'une connexion wifi ?",
             "answers": [
                 {
                     "text": "Oui",
-                    "tags": "wifi",
+                    "tags": "particulier",
                     "nextQuestion": 3
                 },
                 {
                     "text": "Non",
-                    "tags": ""
+                    "tags": "pro",
+                    "nextQuestion": 4
                 }
             ]
         },
         {
             "id": 3,
-            "question": "Utilisez-vous souvent des wifis publics (resto, etc) ?",
+            "question": "Avez-vous configurer le mot de passe de votre box internet ?",
             "answers": [
                 {
                     "text": "Oui",
-                    "tags": "wifi-public",
+                    "tags": "particulier",
+                    "nextQuestion": 5
+                },
+                {
+                    "text": "Non",
+                    "tags": "box-security",
+                    "nextQuestion": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Utilisez vous des réseaux wifi publics ?",
+            "answers": [
+                {
+                    "text": "Oui",
+                    "tags": "wifi-danger",
+                    "nextQuestion": 5
+                },
+                {
+                    "text": "Non",
+                    "tags": "",
+                    "nextQuestion": -1
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Utiliser vous le même mot de passe sur vos applications ?",
+            "answers": [
+                {
+                    "text": "Oui",
+                    "tags": "wifi-danger",
+                    "nextQuestion": 7
+                },
+                {
+                    "text": "Non",
+                    "tags": "",
+                    "nextQuestion": 6
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Utilisez-vous des mots de passe complexes ?",
+            "answers": [
+                {
+                    "text": "Oui",
+                    "tags": "",
                     "nextQuestion": 2
                 },
                 {
                     "text": "Non",
-                    "tags": ""
+                    "tags": "password-complex",
+                    "nextQuestion": 3
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Conaissez-vous le fonctionnement d'un gestionnaire de mot de passe ?",
+            "answers": [
+                {
+                    "text": "Oui",
+                    "tags": "",
+                    "nextQuestion": -1
+                },
+                {
+                    "text": "Non",
+                    "tags": "password-manager",
+                    "nextQuestion": -1
                 }
             ]
         }

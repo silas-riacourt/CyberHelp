@@ -8,7 +8,7 @@
       v-for="(answer, index) in question.answers"
       :key="index"
       :text="answer.text"
-      @click.stop="answere(answer)"
+      @click="answere(answer,$event)"
     ></AnswereButton>
   </div>
 </template>
@@ -32,7 +32,11 @@ export default {
     console.log("debug")
   },
     methods: {
-    answere(answere){
+        
+    answere(answere,event){
+    if (event) {
+      event.preventDefault()
+    }
         this.$emit("answere",answere)
     }
   }
