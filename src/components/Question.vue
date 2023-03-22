@@ -9,7 +9,7 @@
         height="200"
         src="@/assets/question.svg"
       />
-  <QuestionButton text="Je suis un particulier" @click="console.log('click')"></QuestionButton>
+  <QuestionButton text="Je suis un pro" @click="console.log('click')"></QuestionButton>
     <QuestionButton  class="mt-4" text="Je suis un particulier" @click="console.log('click')"></QuestionButton>
   </div>
 </template>
