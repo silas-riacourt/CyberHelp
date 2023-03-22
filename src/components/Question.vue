@@ -1,20 +1,21 @@
 <template>
   <div class="ma-4">
-    <v-card-title class="text-uppercase text-white">
-      <h1>{{question}}</h1>
-    </v-card-title>
- <v-img
- class="ma-8"
-        contain
-        height="200"
-        src="@/assets/question.svg"
-      />
-  <QuestionButton text="Je suis un pro" @click="console.log('click')"></QuestionButton>
-    <QuestionButton  class="mt-4" text="Je suis un particulier" @click="console.log('click')"></QuestionButton>
+    <h3 class="text-h3 text-uppercase text-white">{{ question.question }}</h3>
+
+    <v-img class="ma-8" contain height="200" src="@/assets/question.svg" />
+    <AnswereButton
+      text="Je suis un pro"
+      @click="console.log('click')"
+    ></AnswereButton>
+    <AnswereButton
+      class="mt-4"
+      text="Je suis un particulier"
+      @click="console.log('click')"
+    ></AnswereButton>
   </div>
 </template>
 <script setup>
-import QuestionButton from '@/components/QuestionButton.vue';
+import AnswereButton from '@/components/AnswereButton.vue';
  
  
 </script>
@@ -22,8 +23,11 @@ import QuestionButton from '@/components/QuestionButton.vue';
 export default {
   data() {
     return {
-      question: 'êtes-vous un particulier ou un professionnel ?'
+
     }
+  },
+    props: {
+    question: Object
   }
 }
 </script>

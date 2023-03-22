@@ -1,7 +1,7 @@
 <template>
   <v-card  color="white" height="max-content" class="main--card" min-height="fit-content">
 
-  <Question></Question>
+  <Question :question="questions[0]"></Question>
   </v-card>
 </template>
 
@@ -14,8 +14,23 @@ import Question from '@/components/Question.vue';
 export default {
   data() {
     return {
-      question: 'êtes-vous un particulier ou un professionnel ?'
-    }
+      questions:[         {
+            "id": 1,
+            "question": "Quel type de personne êtes-vous ?",
+            "answers": [
+                {
+                    "text": "Particulier",
+                    "tags": "particulier",
+                    "nextQuestion": 2
+                },
+                {
+                    "text": "Professionnel",
+                    "tags": "pro",
+                    "nextQuestion": 3
+                }
+            ]
+        },
+    ]}
   }
 }
 </script>
