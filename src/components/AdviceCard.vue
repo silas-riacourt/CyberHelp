@@ -16,17 +16,27 @@
     <v-card-actions>
       <v-row justify="center">
         <v-col cols="auto" class="text-center pt-0">
-          <v-btn variant="outlined">Plus d'informations</v-btn>
+          <v-btn variant="outlined" @click="moreInfo()"
+            >Plus d'informations</v-btn
+          >
         </v-col>
       </v-row>
     </v-card-actions>
+    <AdviceDialog
+      v-if="showDialog"
+      @close="showDialog = false"
+      :advice="advice"
+    />
   </v-card>
 </template>
+<script setup>
+import AdviceDialog from '@/components/AdviceDialog.vue';
+</script>
 <script >
 export default {
   data() {
     return {
-
+        showDialog: false
     }
   },
     props: {
@@ -37,7 +47,10 @@ export default {
 
   },
     methods: {
-
+moreInfo(){
+    console.log("Plus d'informations")
+    this.showDialog = true
+}
   }
 }
 </script>
