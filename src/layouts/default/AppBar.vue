@@ -5,8 +5,8 @@
         <h2 class="pl-2">CYBERHELP</h2>
       </v-col>
       <v-col cols="8" class="text-center">
-        <v-btn active selected-class="underline">Mes conseils</v-btn>
-        <v-btn>A propos</v-btn>
+        <v-btn to="/">Mes conseils</v-btn>
+        <v-btn to="/About">A propos</v-btn>
         <v-btn>Contact</v-btn>
       </v-col>
       <v-col cols="2"> </v-col>

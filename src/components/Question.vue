@@ -4,13 +4,11 @@
 
     <v-img class="ma-8" contain height="200" src="@/assets/question.svg" />
     <AnswereButton
-      text="Je suis un pro"
-      @click="console.log('click')"
-    ></AnswereButton>
-    <AnswereButton
-      class="mt-4"
-      text="Je suis un particulier"
-      @click="console.log('click')"
+      class="my-4"
+      v-for="(answer, index) in question.answers"
+      :key="index"
+      :text="answer.text"
+      @click.stop="answere(answer)"
     ></AnswereButton>
   </div>
 </template>
@@ -28,6 +26,15 @@ export default {
   },
     props: {
     question: Object
+  },
+    mounted(){
+
+    console.log("debug")
+  },
+    methods: {
+    answere(answere){
+        this.$emit("answere",answere)
+    }
   }
 }
 </script>
