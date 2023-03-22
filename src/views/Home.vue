@@ -6,7 +6,7 @@
     class="main--card"
     min-height="fit-content"
   >
-    <v-progress-linear v-model="progress" color="white" height="25">
+    <v-progress-linear v-model="progress" color="white" height="16">
     </v-progress-linear>
     <QuestionBloc
       v-if="selectedQuestion != null"
@@ -31,7 +31,7 @@
     </h3>
     <v-row justify="center" class="mt-4">
       <v-col cols="10">
-        <p class="text-white text-left">
+        <p class="text-white text-justify">
           Un quiz sur les usages des outils numériques pour la cybersécurité a
           pour but de sensibiliser les utilisateurs aux risques liés à
           l'utilisation des technologies numériques et de leur fournir des
@@ -127,14 +127,25 @@ export default {
     restart(){
        this.selectedQuestion = this.questions[0]
       this.progress = 0
+       this.userTags = []
     },
     answere(answere){
             console.log(answere)
+            if(!this.userTags.includes(answere.tags)){
             this.userTags = this.userTags.concat(answere.tags)
+            }
+
       if(answere.nextQuestion == -1){
          this.selectedQuestion = null
           this.progress = 100
-          this.selectedAdvices = this.advices;
+          //this.selectedAdvices = this.advices;
+          const customAdvices = []
+          this.advices.forEach(advice => {
+            if(this.userTags.includes(advice.tag)){
+                customAdvices.push(advice)
+            }
+          });
+            this.selectedAdvices = customAdvices
       }else{
       const nextQuestion = this.questions.find((question ) => question.id == answere.nextQuestion);
 
