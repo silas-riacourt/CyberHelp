@@ -1,6 +1,6 @@
 <template>
   <v-card
-    v-if="!loading"
+    v-if="!loading && startQuizz"
     color="white"
     height="max-content"
     class="main--card"
@@ -20,7 +20,48 @@
     ></AdviceList>
   </v-card>
   <v-card
-    v-else
+    v-if="!startQuizz"
+    color="white"
+    height="max-content"
+    class="main--card"
+    min-height="fit-content"
+  >
+    <h3 class="text-h3 text-uppercase text-white">
+      Bienvenue sur votre notre questionnaire personnalisé sur la cybersécurité
+    </h3>
+    <v-row justify="center" class="mt-4">
+      <v-col cols="10">
+        <p class="text-white text-left">
+          Un quiz sur les usages des outils numériques pour la cybersécurité a
+          pour but de sensibiliser les utilisateurs aux risques liés à
+          l'utilisation des technologies numériques et de leur fournir des
+          conseils personnalisés pour améliorer leur sécurité en ligne. Le quiz
+          évalue les connaissances des utilisateurs sur les pratiques de
+          sécurité de base telles que la création de mots de passe forts,
+          l'installation de logiciels de sécurité, la reconnaissance des
+          tentatives de phishing et d'autres formes d'attaques. En fonction des
+          réponses de l'utilisateur, le quiz génère des conseils personnalisés
+          pour améliorer leur sécurité en ligne et les aide à prendre les
+          mesures appropriées pour protéger leurs données et leur vie privée. Le
+          quiz est donc un outil efficace pour améliorer la sensibilisation à la
+          cybersécurité et encourager les utilisateurs à adopter des
+          comportements plus sûr
+        </p>
+      </v-col>
+    </v-row>
+    <v-img class="ma-8" contain height="200" src="@/assets/security.svg" />
+    <v-btn
+      class="mb-4"
+      :rounded="0"
+      size="x-large"
+      color="white"
+      @click="startQuizz = true"
+      style="min-width: 200px"
+      >Démarrer</v-btn
+    >
+  </v-card>
+  <v-card
+    v-if="loading && startQuizz"
     color="white"
     height="max-content"
     class="main--card"
@@ -46,6 +87,7 @@ import AdviceList from '@/components/AdviceList.vue';
 export default {
   data() {
     return {
+      startQuizz: false,
       selectedAdvices: [],
       userTags: [],
       progress: 0,
