@@ -72,7 +72,7 @@
                     "tags": [
                         "pro"
                     ],
-                    "nextQuestion": 3
+                    "nextQuestion": 15
                 }
             ]
         },
@@ -301,6 +301,58 @@
                 },
                 {
                     "text": "Non",
+                    "tags": [],
+                    "nextQuestion": -1
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Quel type d'entreprise ?",
+            "answers": [
+                {
+                    "text": "Une PME",
+                    "tags": [],
+                    "nextQuestion": -1
+                },
+                {
+                    "text": "Une grande entreprise",
+                    "tags": [],
+                    "nextQuestion": -1
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Avez-vous défini une règle sur l'import de travail au sein du foyer de l'employé ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [
+                        "hygiene"
+                    ],
+                    "nextQuestion": 17
+                },
+                {
+                    "text": "Oui",
+                    "tags": [],
+                    "nextQuestion": 17
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Mettez-vous à jour vos logiciels / vos MAJ du système ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [
+                        "hygiene"
+                    ],
+                    "nextQuestion": -1
+                },
+                {
+                    "text": "Oui",
                     "tags": [],
                     "nextQuestion": -1
                 }
