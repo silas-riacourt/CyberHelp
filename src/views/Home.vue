@@ -13,7 +13,11 @@
       :question="selectedQuestion"
       @answere="answere"
     ></QuestionBloc>
-    <AdviceList v-else :advices="advices" @restart="restart()"></AdviceList>
+    <AdviceList
+      v-else
+      :advices="selectedAdvices"
+      @restart="restart()"
+    ></AdviceList>
   </v-card>
   <v-card
     v-else
@@ -26,7 +30,7 @@
       Chargement des questions...
     </h3>
     <v-progress-circular
-      class="mt-6"
+      class="my-6"
       :size="100"
       color="white"
       indeterminate
@@ -42,7 +46,9 @@ import AdviceList from '@/components/AdviceList.vue';
 export default {
   data() {
     return {
-      progress: 10,
+      selectedAdvices: [],
+      userTags: [],
+      progress: 0,
       loading: true,
       selectedQuestion: {},
       advices: [
@@ -82,9 +88,11 @@ export default {
     },
     answere(answere){
             console.log(answere)
+            this.userTags = this.userTags.concat(answere.tags)
       if(answere.nextQuestion == -1){
          this.selectedQuestion = null
-              this.progress = 100
+          this.progress = 100
+          this.selectedAdvices = this.advices;
       }else{
       const nextQuestion = this.questions.find((question ) => question.id == answere.nextQuestion);
 

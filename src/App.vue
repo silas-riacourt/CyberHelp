@@ -12,7 +12,15 @@ export default {
  
   mounted(){
     console.log(this.$route)
+    if(this.$route.fullPath == '/'){
+      this.$router.push("/home")
+    }
 
   },
 }
 </script>
+<style>
+body {
+  overflow: hidden !important; /* Hide scrollbars */
+}
+</style>
