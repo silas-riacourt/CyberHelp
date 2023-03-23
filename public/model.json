@@ -53,6 +53,54 @@
             "titre": "HTTP vs HTTPS ?",
             "description": "\"Lorsque vous r\u00E9alisez des achats sur Internet, via votre ordinateur ou votre ordiphone (smartphone), vos coordonn\u00E9es bancaires sont susceptibles d\u2019\u00EAtre intercept\u00E9es par des attaquants directement sur votre ordinateur ou dans les fichiers clients du site marchand. \r\n\r\n\u2022 Contr\u00F4lez la pr\u00E9sence d\u2019un cadenas dans la barre d\u2019adresse ou en bas \u00E0 droite de la fen\u00EAtre de votre navigateur Internet (remarque : ce cadenas n\u2019est pas visible sur tous les navigateurs) ; \r\n\r\n\u2022 Assurez-vous que la mention \u00AB https:\/\/ \u00BB apparait au d\u00E9but de l\u2019adresse du site Internet ;\r\n \r\n\u2022 V\u00E9rifiez l\u2019exactitude de l\u2019adresse du site Internet en prenant garde aux fautes d\u2019orthographe par exemple. \r\n\"",
             "tag": "bank-http"
+        },
+        {
+            "id": 10,
+            "titre": "Séparer les usages personnels des usages professionnels",
+            "description": "\"Les usages et les mesures de s\u00E9curit\u00E9 sont diff\u00E9rents sur les \u00E9quipements de communication (ordinateur, ordiphone, etc.) personnels et professionnels. Le AVEC (Apportez Votre Equipement personnel de Communication) ou BYOD (Bring Your Own Device) est une pratique qui consiste, pour les collaborateurs, \u00E0 utiliser leurs \u00E9quipements personnels (ordinateur, ordiphone, tablette, etc.) dans un contexte professionnel. \r\nSi cette solution est de plus en plus utilis\u00E9e aujourd\u2019hui, elle pose des probl\u00E8mes en mati\u00E8re de s\u00E9curit\u00E9 des donn\u00E9es (vol ou perte des appareils, intrusions, manque de contr\u00F4le sur l\u2019utilisation des appareils par les collaborateurs, fuite de donn\u00E9es lors du d\u00E9part du collaborateur). Dans ce contexte, il est recommand\u00E9 de s\u00E9parer vos usages personnels de vos usages professionnels : \r\n\r\n\u2022 Ne faites pas suivre vos messages \u00E9lectroniques professionnels sur des services de messagerie utilis\u00E9s \u00E0 des fins personnelles ; \r\n\u2022 N\u2019h\u00E9bergez pas de donn\u00E9es professionnelles sur vos \u00E9quipements personnels (cl\u00E9 USB, t\u00E9l\u00E9phone, etc.) ou sur des moyens personnels de stockage en ligne ; \r\n\u2022 Ne la m\u00EAme fa\u00E7on, \u00E9vitez de connecter des supports amovibles personnels (cl\u00E9s USB, disques durs externes, etc.) aux ordinateurs de l\u2019entreprise. \r\n\r\nSi vous n\u2019appliquez pas ces bonnes pratiques, vous prenez le risque que des personnes malveillantes volent des informations sensibles de votre entreprise apr\u00E8s avoir r\u00E9ussi \u00E0 prendre le contr\u00F4le de votre machine personnelle. \r\n\"",
+            "tag": "hygiene"
+        },
+        {
+            "id": 11,
+            "titre": "Mise à jours du système / logiciels",
+            "description": "Dans chaque syst\u00E8me d\u2019exploitation* (Android, IOS, MacOS, Linux, Windows,\u2026), logiciel ou application, des vuln\u00E9rabilit\u00E9s existent. Une fois d\u00E9couvertes, elles sont corrig\u00E9es par les \u00E9diteurs qui proposent alors aux utilisateurs* des mises \u00E0 jour* de s\u00E9curit\u00E9. Sachant que bon nombre d\u2019utilisateurs ne proc\u00E8dent pas \u00E0 ces mises \u00E0 jour, les attaquants exploitent ces vuln\u00E9rabilit\u00E9s pour mener \u00E0 bien leurs op\u00E9rations encore longtemps apr\u00E8s leur d\u00E9couverte et leur correction.\r\n\r\nIl convient donc, au sein de l\u2019entreprise, de mettre en place certaines r\u00E8gles : \r\n\r\n\u2022 D\u00E9finissez et faites appliquer une politique de mises \u00E0 jour r\u00E9guli\u00E8res : \r\n\r\n\u00BB S\u2019il existe un service informatique au sein de l\u2019entreprise, il est charg\u00E9 de la mise \u00E0 jour du syst\u00E8me d\u2019exploitation et des logiciels ; \r\n\r\n\u00BB S\u2019il n\u2019en existe pas, il appartient aux utilisateurs de faire cette d\u00E9marche, sous l\u2019autorit\u00E9 du chef d\u2019entreprise.\r\n\r\n\u2022 Configurez vos logiciels pour que les mises \u00E0 jour de s\u00E9curit\u00E9 s\u2019installent automatiquement chaque fois que cela est possible. Sinon, t\u00E9l\u00E9chargez les correctifs de s\u00E9curit\u00E9 disponibles ;\r\n \r\n\u2022 Utilisez exclusivement les sites Internet officiels des \u00E9diteurs.\r\n",
+            "tag": "update"
+        },
+        {
+            "id": 12,
+            "titre": "Pourquoi effectuer des sauvegardes régulièrement",
+            "description": "\"Pour veiller \u00E0 la s\u00E9curit\u00E9 de vos donn\u00E9es, il est vivement conseill\u00E9 d\u2019effectuer des sauvegardes r\u00E9guli\u00E8res (quotidiennes ou hebdomadaires par exemple). Vous pourrez alors en disposer suite \u00E0 un dysfonctionnement de votre syst\u00E8me d\u2019exploitation ou \u00E0 une attaque. \r\n\r\nPour sauvegarder vos donn\u00E9es, vous pouvez utiliser des supports externes tels qu\u2019un disque dur externe r\u00E9serv\u00E9 exclusivement \u00E0 cet usage, ou, \u00E0 d\u00E9faut, un CD ou un DVD enregistrable que vous rangerez ensuite dans un lieu \u00E9loign\u00E9 de votre ordinateur, de pr\u00E9f\u00E9rence \u00E0 l\u2019ext\u00E9rieur de l\u2019entreprise pour \u00E9viter que la destruction des donn\u00E9es d\u2019origine ne s\u2019accompagne de la destruction de la copie de sauvegarde en cas d\u2019incendie ou d\u2019inondation ou que la copie de sauvegarde ne soit vol\u00E9e en m\u00EAme temps que l\u2019ordinateur contenant les donn\u00E9es d\u2019origine. N\u00E9anmoins, il est n\u00E9cessaire d\u2019accorder une attention particuli\u00E8re \u00E0 la dur\u00E9e de vie de ces supports. \r\n\r\nAvant d\u2019effectuer des sauvegardes sur des plateformes sur Internet (souvent appel\u00E9es \u00AB cloud \u00BB ou \u00AB informatique en nuage \u00BB), soyez conscient que ces sites de stockage peuvent \u00EAtre la cible d\u2019attaques informatiques et que ces solutions impliquent des risques sp\u00E9cifiques: \r\n\r\n\u00BB Risques pour la confidentialit\u00E9 des donn\u00E9es, \r\n\u00BB Risques juridiques li\u00E9s \u00E0 l\u2019incertitude sur la localisation des donn\u00E9es, \r\n\u00BB Risques pour la disponibilit\u00E9 et l\u2019int\u00E9grit\u00E9 des donn\u00E9es, \r\n\u00BB Risques li\u00E9s \u00E0 l\u2019irr\u00E9versibilit\u00E9 des contrats. \r\n\r\n\u2022 Soyez vigilant en prenant connaissance des conditions g\u00E9n\u00E9rales d\u2019utilisation de ces services. Les contrats propos\u00E9s dans le cadre des offres g\u00E9n\u00E9riques ne couvrent g\u00E9n\u00E9ralement pas ces risques ;\r\n \r\n\u2022 Autant que possible, n\u2019h\u00E9sitez pas \u00E0 recourir \u00E0 des sp\u00E9cialistes techniques et juridiques pour la r\u00E9daction des contrats personnalis\u00E9s et appropri\u00E9s aux enjeux de votre entreprise ; \r\n\r\n\u2022 Veillez \u00E0 la confidentialit\u00E9 des donn\u00E9es en rendant leur lecture impossible \u00E0 des personnes non autoris\u00E9es en les chiffrant \u00E0 l\u2019aide d\u2019un logiciel de chiffrement* avant de les copier dans le \u00AB cloud \u00BB. Pour en savoir plus, consultez le guide sur l\u2019externalisation et la s\u00E9curit\u00E9 des syst\u00E8mes d\u2019information r\u00E9alis\u00E9 par l\u2019ANSSI.\r\n\"",
+            "tag": "backup"
+        },
+        {
+            "id": 13,
+            "titre": "Comment choisir un bon mot de passe",
+            "description": "\"\"\"Le mot de passe est un outil d\u2019authentification utilis\u00E9 notamment pour acc\u00E9der \u00E0 un \u00E9quipement num\u00E9rique et \u00E0 ses donn\u00E9es. Pour bien prot\u00E9ger vos informations, choisissez des mots de passe difficiles \u00E0 retrouver \u00E0 l\u2019aide d\u2019outils automatis\u00E9s ou \u00E0 deviner par une tierce personne. Choisissez des mots de passe compos\u00E9s si possible de 12 caract\u00E8res de type diff\u00E9rent (majuscules, minuscules, chiffres, caract\u00E8res sp\u00E9ciaux) n\u2019ayant aucun lien avec vous (nom, date de naissance\u2026) et ne figurant pas dans le dictionnaire.\r\n\r\nDeux m\u00E9thodes simples peuvent vous aider \u00E0 d\u00E9finir vos mots de passe : \r\n\r\n\u2022 La m\u00E9thode phon\u00E9tique : \u00AB J\u2019ai achet\u00E9 5 CDs pour cent euros cet apr\u00E8s-midi \u00BB : ght5CDs%E7am ; \r\n\u2022 La m\u00E9thode des premi\u00E8res lettres : \u00AB Allons enfants de la patrie, le jour de gloire est arriv\u00E9 \u00BB : aE2lP,lJ2G\u00E9a! \r\n\r\nD\u00E9finissez un mot de passe unique pour chaque service sensible. Les mots de passe prot\u00E9geant des contenus sensibles (banque, messagerie professionnelle\u2026) ne doivent jamais \u00EAtre r\u00E9utilis\u00E9s pour d\u2019autres services. Il est pr\u00E9f\u00E9rable de ne pas recourir aux outils de stockage de mots de passe. \r\n\r\nA d\u00E9faut, il faut s\u2019en tenir \u00E0 une solution ayant re\u00E7u une certification de premier niveau (CSPN) En entreprise : \r\n\r\n\u2022 D\u00E9terminez des r\u00E8gles de choix et de dimensionnement (longueur) des mots de passe et faites les respecter ; \r\n\u2022 Modifiez toujours les \u00E9l\u00E9ments d\u2019authentification (identifiants, mots de passe) d\u00E9finis par d\u00E9faut sur les \u00E9quipements (imprimantes, serveurs, box\u2026) ; \r\n\u2022 Rappelez aux collaborateurs de ne pas conserver les mots de passe dans des fichiers ou sur des post-it ; \r\n\u2022 Sensibilisez les collaborateurs au fait qu\u2019ils ne doivent pas pr\u00E9-enregistrer leurs mots de passe dans les navigateurs, notamment lors de l\u2019utilisation ou la connexion \u00E0 un ordinateur public ou partag\u00E9 (salons, d\u00E9placements\u2026).\"\"\"",
+            "tag": "e-password"
+        },
+        {
+            "id": 14,
+            "titre": "Comment sécuriser son smartphone professionnel",
+            "description": "\"Bien que proposant des services innovants, les ordiphones (smartphones) sont aujourd\u2019hui tr\u00E8s peu s\u00E9curis\u00E9s. Il est donc indispensable d\u2019appliquer certaines r\u00E8gles \u00E9l\u00E9mentaires de s\u00E9curit\u00E9 informatique : \r\n\r\n\u2022 N\u2019installez que les applications n\u00E9cessaires et v\u00E9rifiez \u00E0 quelles donn\u00E9es elles peuvent avoir acc\u00E8s avant de les t\u00E9l\u00E9charger (informations g\u00E9ographiques, contacts, appels t\u00E9l\u00E9phoniques\u2026). Certaines applications demandent l\u2019acc\u00E8s \u00E0 des donn\u00E9es qui ne sont pas n\u00E9cessaires \u00E0 leur fonctionnement, il faut \u00E9viter de les installer ; \r\n\r\n\u2022 En plus du code PIN qui prot\u00E8ge votre carte t\u00E9l\u00E9phonique, utilisez un sch\u00E9ma ou un mot de passe pour s\u00E9curiser l\u2019acc\u00E8s \u00E0 votre terminal et le configurer pour qu\u2019il se verrouille automatiquement ; \u2022 effectuez des sauvegardes r\u00E9guli\u00E8res de vos contenus sur un support externe pour pouvoir les conserver en cas de restauration de votre appareil dans son \u00E9tat initial ; \r\n\r\n\u2022 Ne pr\u00E9enregistrez pas vos mots de passe.\r\n\"",
+            "tag": "phone-secu"
+        },
+        {
+            "id": 15,
+            "titre": "Protection de ses données en déplacement professionnel",
+            "description": "\"L\u2019emploi d\u2019ordinateurs portables, d\u2019ordiphones (smartphones) ou de tablettes facilite les d\u00E9placements professionnels ainsi que le transport et l\u2019\u00E9change de donn\u00E9es. Voyager avec ces appareils nomades fait cependant peser des menaces sur des informations sensibles dont le vol ou la perte auraient des cons\u00E9quences importantes sur les activit\u00E9s de l\u2019organisation. Il convient de se r\u00E9f\u00E9rer au passeport de conseils aux voyageurs \u00E9dit\u00E9 par l\u2019ANSSI. \r\n\r\nAvant de partir en mission : \r\n\r\n\u2022 N\u2019utilisez que du mat\u00E9riel (ordinateur, supports amovibles, t\u00E9l\u00E9phone) d\u00E9di\u00E9 \u00E0 la mission, et ne contenant que les donn\u00E9es n\u00E9cessaires ; \r\n\r\n\u2022 Sauvegardez ces donn\u00E9es, pour les retrouver en cas de perte ;\r\n\r\n\u2022 Si vous comptez profiter des trajets pour travailler, emportez un filtre de protection \u00E9cran pour votre ordinateur ; \r\n\r\n\u2022 Apposez un signe distinctif (comme une pastille de couleur) sur vos appareils pour vous assurer qu\u2019il n\u2019y a pas eu d\u2019\u00E9change pendant le transport ; \r\n\r\n\u2022 V\u00E9rifiez que vos mots de passe ne sont pas pr\u00E9enregistr\u00E9s. \r\n\r\nPendant la mission : \r\n\r\n\u2022 Gardez vos appareils, supports et fichiers avec vous, pendant votre voyage comme pendant votre s\u00E9jour (ne les laissez pas dans un bureau ou un coffre d\u2019h\u00F4tel) ; \r\n\r\n\u2022 D\u00E9sactivez les fonctions Wi-Fi et Bluetooth de vos appareils ; \r\n\r\n\u2022 Retirez la carte SIM et la batterie si vous \u00EAtes contraint de vous s\u00E9parer de votre t\u00E9l\u00E9phone; \r\n\r\n\u2022 Informez votre entreprise en cas d\u2019inspection ou de saisie de votre mat\u00E9riel par des autorit\u00E9s \u00E9trang\u00E8res ; \r\n\r\n\u2022 N\u2019utilisez pas les \u00E9quipements que l\u2019on vous offre si vous ne pouvez pas les faire v\u00E9rifier par un service de s\u00E9curit\u00E9 de confiance ; \r\n\r\n\u2022 Evitez de connecter vos \u00E9quipements \u00E0 des postes qui ne sont pas de confiance. \r\nPar exemple, si vous avez besoin d\u2019\u00E9changer des documents lors d\u2019une pr\u00E9sentation commerciale, utilisez une cl\u00E9 USB destin\u00E9e uniquement \u00E0 cet usage et effacez ensuite les donn\u00E9es avec un logiciel d\u2019effacement s\u00E9curis\u00E9 ; \r\n\r\n\u2022 Refusez la connexion d\u2019\u00E9quipements appartenant \u00E0 des tiers \u00E0 vos propres \u00E9quipements (ordiphone, cl\u00E9 USB, baladeur\u2026) \r\n\r\nApr\u00E8s la mission : \r\n\r\n\u2022 Effacez l\u2019historique des appels et de navigation ;\r\n \r\n\u2022 Changez les mots de passe que vous avez utilis\u00E9s pendant le voyage ; \r\n\r\n\u2022 Faites analyser vos \u00E9quipements apr\u00E8s la mission, si vous le pouvez. \r\n\r\n\u2022 N\u2019utilisez jamais les cl\u00E9s USB qui peuvent vous avoir \u00E9t\u00E9 offertes lors de vos d\u00E9placements (salons, r\u00E9unions, voyages\u2026) : tr\u00E8s pris\u00E9es des attaquants, elles sont susceptibles de contenir des programmes malveillants.\r\n\"",
+            "tag": "nomadisme"
+        },
+        {
+            "id": 16,
+            "titre": "Le compte administrateur",
+            "description": "\"Lorsque vous acc\u00E9dez \u00E0 votre ordinateur, vous b\u00E9n\u00E9ficiez de droits d\u2019utilisation plus ou moins \u00E9lev\u00E9s sur celui-ci. On distingue g\u00E9n\u00E9ralement les droits dits \u00AB d\u2019utilisateur \u00BB* et les droits dits \u00AB d\u2019administrateur \u00BB*.\r\n \r\n\u2022 Dans l\u2019utilisation quotidienne de votre ordinateur (naviguer sur Internet, lire ses courriels, utiliser des logiciels de bureautique, de jeu,\u2026), prenez un compte utilisateur. Il r\u00E9pondra parfaitement \u00E0 vos besoins. \r\n\r\n\u2022 Le compte administrateur n\u2019est \u00E0 utiliser que pour intervenir sur le fonctionnement global de l\u2019ordinateur (g\u00E9rer des comptes utilisateurs, modifier la politique de s\u00E9curit\u00E9, installer ou mettre \u00E0 jour des logiciels,\u2026). Les syst\u00E8mes d\u2019exploitation r\u00E9cents vous permettent d\u2019intervenir facilement sur le fonctionnement global de votre machine sans changer de compte : si vous utilisez un compte utilisateur, le mot de passe administrateur est demand\u00E9 pour effectuer les manipulations d\u00E9sir\u00E9es. Le compte administrateur permet d\u2019effectuer d\u2019importantes modifications sur votre ordinateur. \r\n\r\nAu sein de l\u2019entreprise : \r\n\r\n\u2022 R\u00E9servez l\u2019utilisation au service informatique, si celui-ci existe ; \r\n\r\n\u2022 Dans le cas contraire, prot\u00E9gez-en l\u2019acc\u00E8s, n\u2019ouvrez pour les employ\u00E9s que des comptes utilisateur, n\u2019utilisez pas le compte administrateur pour de la navigation sur Internet ; \r\n\r\n\u2022 Identifiez pr\u00E9cis\u00E9ment les diff\u00E9rents utilisateurs du syst\u00E8me et les privil\u00E8ges qui leur sont accord\u00E9s. Tous ne peuvent pas b\u00E9n\u00E9ficier de droits d\u2019administrateur ; \r\n\r\n\u2022 Supprimez les comptes anonymes et g\u00E9n\u00E9riques (stagiaire, contact, presse, etc.). Chaque utilisateur doit \u00EAtre identifi\u00E9 nomm\u00E9ment afin de pouvoir relier une action sur le syst\u00E8me \u00E0 un utilisateur ; \r\n\r\n\u2022 Encadrez par des proc\u00E9dures d\u00E9termin\u00E9es les arriv\u00E9es et les d\u00E9parts de personnel pour vous assurer que les droits octroy\u00E9s sur les syst\u00E8mes d\u2019information sont appliqu\u00E9s au plus juste et surtout qu\u2019ils sont r\u00E9voqu\u00E9s lors du d\u00E9part de la personne.\r\n\"",
+            "tag": "admin-account"
+        },
+        {
+            "id": 17,
+            "titre": "Les mails frauduleux",
+            "description": "\"Les courriels et leurs pi\u00E8ces jointes jouent souvent un r\u00F4le central dans la r\u00E9alisation des attaques informatiques (courriels frauduleux, pi\u00E8ces jointes pi\u00E9g\u00E9es,etc.). Lorsque vous recevez des courriels, prenez les pr\u00E9cautions suivantes : \r\n\r\n\u2022 L\u2019identit\u00E9 d\u2019un exp\u00E9diteur n\u2019\u00E9tant en rien garantie : v\u00E9rifiez la coh\u00E9rence entre l\u2019exp\u00E9diteur pr\u00E9sum\u00E9 et le contenu du message et v\u00E9rifier son identit\u00E9. En cas de doute, ne pas h\u00E9siter \u00E0 contacter directement l\u2019\u00E9metteur du mail; \r\n\r\n\u2022 N\u2019ouvrez pas les pi\u00E8ces jointes provenant de destinataires inconnus ou dont le titre ou le format paraissent incoh\u00E9rents avec les fichiers que vous envoient habituellement vos contacts; \r\n\r\n\u2022 Si des liens figurent dans un courriel, passez votre souris dessus avant de cliquer. L\u2019adresse compl\u00E8te du site s\u2019affichera dans la barre d\u2019\u00E9tat du navigateur situ\u00E9e en bas \u00E0 gauche de la fen\u00EAtre (\u00E0 condition de l\u2019avoir pr\u00E9alablement activ\u00E9e). Vous pourrez ainsi en v\u00E9rifier la coh\u00E9rence; \r\n\r\n\u2022 Ne r\u00E9pondez jamais par courriel \u00E0 une demande d\u2019informations personnelles ou confidentielles (ex : code confidentiel et num\u00E9ro de votre carte bancaire). En effet, des courriels circulent aux couleurs d\u2019institutions comme les Imp\u00F4ts pour r\u00E9cup\u00E9rer vos donn\u00E9es. Il s\u2019agit d\u2019attaques par hame\u00E7onnage ou \u00AB phishing \u00BB* ; \r\n\r\n\u2022 N\u2019ouvrez pas et ne relayez pas de messages de types cha\u00EEnes de lettre, appels \u00E0 la solidarit\u00E9, alertes virales, etc. ; \r\n\r\n\u2022 D\u00E9sactivez l\u2019ouverture automatique des documents t\u00E9l\u00E9charg\u00E9s et lancez une analyse antivirus* avant de les ouvrir afin de v\u00E9rifier qu\u2019ils ne contiennent aucune charge virale connue.\r\n\"",
+            "tag": "email-secu"
         }
     ],
     "questions": [
@@ -309,12 +357,12 @@
                 {
                     "text": "Une PME",
                     "tags": [],
-                    "nextQuestion": -1
+                    "nextQuestion": 16
                 },
                 {
                     "text": "Une grande entreprise",
                     "tags": [],
-                    "nextQuestion": -1
+                    "nextQuestion": 21
                 }
             ]
         },
@@ -343,13 +391,173 @@
                 {
                     "text": "Non",
                     "tags": [
-                        "hygiene"
+                        "update"
                     ],
-                    "nextQuestion": -1
+                    "nextQuestion": 18
                 },
                 {
                     "text": "Oui",
                     "tags": [],
+                    "nextQuestion": 18
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Avez vous des sauvegardes régulières/backups de votre SI ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [
+                        "backup"
+                    ],
+                    "nextQuestion": 19
+                },
+                {
+                    "text": "Oui",
+                    "tags": [],
+                    "nextQuestion": 19
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Avez-vous défini une exigence sur la création de mot de passe ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [
+                        "e-password"
+                    ],
+                    "nextQuestion": 20
+                },
+                {
+                    "text": "Oui",
+                    "tags": [],
+                    "nextQuestion": 20
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "question": "Disposez-vous de smartphone professionnel ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [],
+                    "nextQuestion": -1
+                },
+                {
+                    "text": "Oui",
+                    "tags": [
+                        "phone-secu"
+                    ],
+                    "nextQuestion": -1
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "question": "Utilisez-vous le nomadisme au sein de votre entreprise ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [],
+                    "nextQuestion": 22
+                },
+                {
+                    "text": "Oui",
+                    "tags": [],
+                    "nextQuestion": 23
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Savez-vous comment protéger ses données lors d'un déplacement",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [
+                        "nomadisme"
+                    ],
+                    "nextQuestion": 24
+                },
+                {
+                    "text": "Oui",
+                    "tags": [],
+                    "nextQuestion": 24
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Voyager vous souvent pour le compte de votre entreprise ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [],
+                    "nextQuestion": 24
+                },
+                {
+                    "text": "Oui",
+                    "tags": [
+                        "nomadisme"
+                    ],
+                    "nextQuestion": 24
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Avez-vous défini une exigence sur la création de mot de passe ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [
+                        "e-password"
+                    ],
+                    "nextQuestion": 25
+                },
+                {
+                    "text": "Oui",
+                    "tags": [],
+                    "nextQuestion": 25
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Avez-vous bien défini le rôle du compte administrateur au sein de votre entreprise ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [
+                        "admin-account"
+                    ],
+                    "nextQuestion": 26
+                },
+                {
+                    "text": "Oui",
+                    "tags": [],
+                    "nextQuestion": 26
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "question": "Recevez-vous beaucoup de mails SPAM ou phishing ?",
+            "answers": [
+                {
+                    "text": "Non",
+                    "tags": [],
+                    "nextQuestion": -1
+                },
+                {
+                    "text": "Oui",
+                    "tags": [
+                        "email-secu"
+                    ],
                     "nextQuestion": -1
                 }
             ]
