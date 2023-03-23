@@ -16,7 +16,7 @@
             "id": 3,
             "titre": "Choisir avec soin les mots de passes",
             "description": "\"Le mot de passe est un outil d\u2019authentification utilis\u00E9 notamment pour acc\u00E9der \u00E0 un \u00E9quipement num\u00E9rique et \u00E0 ses donn\u00E9es. Pour bien prot\u00E9ger vos informations, choisissez des mots de passe difficiles \u00E0 retrouver \u00E0 l\u2019aide d\u2019outils automatis\u00E9s ou \u00E0 deviner par une tierce personne. Choisissez des mots de passe compos\u00E9s si possible de 12 caract\u00E8res de type diff\u00E9rent (majuscules, minuscules, chiffres, caract\u00E8res sp\u00E9ciaux) n\u2019ayant aucun lien avec vous (nom, date de naissance\u2026) et ne figurant pas dans le dictionnaire.\r\n\r\nDeux m\u00E9thodes simples peuvent vous aider \u00E0 d\u00E9finir vos mots de passe : \r\n\r\n\u2022 La m\u00E9thode phon\u00E9tique : \u00AB J\u2019ai achet\u00E9 5 CDs pour cent euros cet apr\u00E8s-midi \u00BB : ght5CDs%E7am ; \r\n\u2022 La m\u00E9thode des premi\u00E8res lettres : \u00AB Allons enfants de la patrie, le jour de gloire est arriv\u00E9 \u00BB : aE2lP,lJ2G\u00E9a! \r\n\"",
-            "tag": "password-creation"
+            "tag": "password-complex"
         },
         {
             "id": 4,
@@ -106,7 +106,7 @@
                 {
                     "text": "Non",
                     "tags": [
-                        "box-security"
+                        "wifi-home"
                     ],
                     "nextQuestion": 5
                 }
@@ -119,7 +119,7 @@
                 {
                     "text": "Oui",
                     "tags": [
-                        "wifi-danger"
+                        "wifi-public-danger"
                     ],
                     "nextQuestion": 5
                 },
@@ -243,9 +243,7 @@
                 },
                 {
                     "text": "Non",
-                    "tags": [
-                        "update-software"
-                    ],
+                    "tags": [],
                     "nextQuestion": 14
                 }
             ]
@@ -261,9 +259,7 @@
                 },
                 {
                     "text": "Non",
-                    "tags": [
-                        "update-software"
-                    ],
+                    "tags": [],
                     "nextQuestion": 14
                 }
             ]

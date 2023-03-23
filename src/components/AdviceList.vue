@@ -5,7 +5,7 @@
     </h3>
 
     <v-row justify="center" class="mt-4">
-      <v-col cols="8" class="mb-4">
+      <v-col cols="10" class="mb-4">
         <v-btn
           @click="$emit('restart')"
           :rounded="0"
@@ -14,7 +14,7 @@
           >Recommencer le questionnaire <v-icon end icon="mdi-restart"></v-icon
         ></v-btn>
       </v-col>
-      <v-col cols="8">
+      <v-col cols="10">
         <AdviceCard
           class="text-left mb-4"
           v-for="(advice, index) in advices"

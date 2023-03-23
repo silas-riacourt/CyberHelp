@@ -26,14 +26,16 @@
     class="main--card"
     min-height="fit-content"
   >
-    <h3 class="text-h3 text-uppercase text-white">
-      Bienvenue sur votre notre questionnaire personnalisé sur la cybersécurité
-    </h3>
     <v-row justify="center" class="mt-4">
+      <v-col cols="11">
+        <h3 class="text-h3 text-uppercase text-white">
+          Bienvenue sur notre questionnaire personnalisé sur la cybersécurité
+        </h3>
+      </v-col>
       <v-col cols="10">
         <p class="text-white text-justify">
-          Un quiz sur les usages des outils numériques pour la cybersécurité a
-          pour but de sensibiliser les utilisateurs aux risques liés à
+          Notre quiz sur les usages des outils numériques pour la cybersécurité
+          a pour but de sensibiliser les utilisateurs aux risques liés à
           l'utilisation des technologies numériques et de leur fournir des
           conseils personnalisés pour améliorer leur sécurité en ligne. Le quiz
           évalue les connaissances des utilisateurs sur les pratiques de
