@@ -18,7 +18,7 @@
   //
 </script>
 <style>
-.underline {
-  text-decoration: underline;
+.v-btn--active {
+  border-bottom: 4px solid white !important;
 }
 </style>
