@@ -24,7 +24,11 @@
     </div>
   </form>
 </template>
-
+<script>
+export default {
+  name: 'ContactView',
+};
+</script>
 <style>
 .main_title {
   color: white;

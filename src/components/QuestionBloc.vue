@@ -13,32 +13,29 @@
   </div>
 </template>
 <script setup>
+// eslint-disable-next-line import/no-unresolved
 import AnswereButton from '@/components/AnswereButton.vue';
- 
- 
+
 </script>
 <script >
 export default {
   data() {
     return {
 
-    }
+    };
   },
-    props: {
-    question: Object
+  props: {
+    question: Object,
   },
-    mounted(){
 
-    console.log("debug")
+  methods: {
+
+    answere(answere, event) {
+      if (event) {
+        event.preventDefault();
+      }
+      this.$emit('answere', answere);
+    },
   },
-    methods: {
-        
-    answere(answere,event){
-    if (event) {
-      event.preventDefault()
-    }
-        this.$emit("answere",answere)
-    }
-  }
-}
+};
 </script>

@@ -8,9 +8,9 @@
 <script >
 export default {
   props: {
-    text: String
-  }
-}
+    text: String,
+  },
+};
 </script>
 <style scoped>
 .v-btn {

@@ -1,3 +1,4 @@
+<!-- eslint-disable max-len -->
 <template>
     <div class="main_title">
         <h1> A propos de nous </h1>
@@ -27,8 +28,11 @@
         </div>
     </div>
 </template>
-
-
+<script>
+export default {
+  name: 'AboutView',
+};
+</script>
 <style>
     .main_title {
         color: white;

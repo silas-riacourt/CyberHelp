@@ -5,19 +5,17 @@
 </template>
 
 <script setup>
-  //
+//
 </script>
 <script>
 export default {
- 
-  mounted(){
-    console.log(this.$route)
-    if(this.$route.fullPath == '/'){
-      this.$router.push("/home")
-    }
 
+  mounted() {
+    if (this.$route.fullPath === '/') {
+      this.$router.push('/home');
+    }
   },
-}
+};
 </script>
 <style>
 body {

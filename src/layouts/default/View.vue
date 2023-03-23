@@ -2,15 +2,17 @@
   <v-main class="d-flex">
     <v-row justify="center" align="center">
       <v-col cols="8" class="text-center">
-        <router-view class="mt-4" />
+        <router-view />
       </v-col>
       <v-col cols="12"></v-col>
     </v-row>
   </v-main>
 </template>
 
-<script setup>
-  //
+<script>
+export default {
+  name: 'ViewComponenet',
+};
 </script>
 <style scoped>
 .v-main {

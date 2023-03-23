@@ -82,11 +82,14 @@
 </template>
 
 <script setup>
+// eslint-disable-next-line import/no-unresolved
 import QuestionBloc from '@/components/QuestionBloc.vue';
+// eslint-disable-next-line import/no-unresolved
 import AdviceList from '@/components/AdviceList.vue';
 </script>
 <script>
 export default {
+  name: 'HomeView',
   data() {
     return {
       startQuizz: false,
@@ -97,81 +100,81 @@ export default {
       selectedQuestion: {},
       advices: [
         {
-            "id": 1,
-            "titre": "Avoir un mot de passe complex",
-            "description": "ckdslfdsichdsufcjhxcjsujhcsghckgshqchdsvchjvsqhfcdsvjfcjdsbfsdjb",
-            "tags": [
-                "password",
-                "users"
-            ]
+          id: 1,
+          titre: 'Avoir un mot de passe complex',
+          description: 'ckdslfdsichdsufcjhxcjsujhcsghckgshqchdsvchjvsqhfcdsvjfcjdsbfsdjb',
+          tags: [
+            'password',
+            'users',
+          ],
         },
         {
-            "id": 2,
-            "titre": "Exemple conseil perso",
-            "description": "ckdslfdsichdsufcjhxcjsujhcsghckgshqchdsvchjvsqhfcdsvjfcjdsbfsdjb",
-            "tags": [
-                "particulier",
-                "users"
-            ]
-        }
-    ],
-      questions:[         
-        
-    ]}
-  },
-  mounted(){
-    this.selectedQuestion = this.questions[0]
-          setTimeout(() => this.loading = false, 1000);
-      this.getData()
+          id: 2,
+          titre: 'Exemple conseil perso',
+          description: 'ckdslfdsichdsufcjhxcjsujhcsghckgshqchdsvchjvsqhfcdsvjfcjdsbfsdjb',
+          tags: [
+            'particulier',
+            'users',
+          ],
+        },
+      ],
+      questions: [
 
+      ],
+    };
+  },
+  mounted() {
+    // eslint-disable-next-line prefer-destructuring
+    this.selectedQuestion = this.questions[0];
+    // eslint-disable-next-line no-return-assign
+    setTimeout(() => this.loading = false, 1000);
+    this.getData();
   },
   methods: {
-    restart(){
-       this.selectedQuestion = this.questions[0]
-      this.progress = 0
-       this.userTags = []
+    restart() {
+      // eslint-disable-next-line prefer-destructuring
+      this.selectedQuestion = this.questions[0];
+      this.progress = 0;
+      this.userTags = [];
     },
-    answere(answere){
-            console.log(answere)
-            if(!this.userTags.includes(answere.tags)){
-            this.userTags = this.userTags.concat(answere.tags)
-            }
-
-      if(answere.nextQuestion == -1){
-         this.selectedQuestion = null
-          this.progress = 100
-          //this.selectedAdvices = this.advices;
-          const customAdvices = []
-          this.advices.forEach(advice => {
-            if(this.userTags.includes(advice.tag)){
-                customAdvices.push(advice)
-            }
-          });
-            this.selectedAdvices = customAdvices
-      }else{
-      const nextQuestion = this.questions.find((question ) => question.id == answere.nextQuestion);
-
-      this.selectedQuestion = nextQuestion
-      this.progress +=10
+    answere(answere) {
+      if (!this.userTags.includes(answere.tags)) {
+        this.userTags = this.userTags.concat(answere.tags);
       }
 
+      if (answere.nextQuestion === -1) {
+        this.selectedQuestion = null;
+        this.progress = 100;
 
+        const customAdvices = [];
+        this.advices.forEach((advice) => {
+          if (this.userTags.includes(advice.tag)) {
+            customAdvices.push(advice);
+          }
+        });
+        this.selectedAdvices = customAdvices;
+      } else {
+        const nextQuest = this.questions.find((question) => question.id === answere.nextQuestion);
+
+        this.selectedQuestion = nextQuest;
+        this.progress += 10;
+      }
     },
-    getData(){
-      console.log("get data")
-      fetch("model.json")
-        .then(response => response.json())
-        .then(data => {
-          this.questions = data.questions
-          this.selectedQuestion = this.questions[0]
-          this.advices = data.advices
+    getData() {
+      fetch('model.json')
+        .then((response) => response.json())
+        .then((data) => {
+          this.questions = data.questions;
+          // eslint-disable-next-line prefer-destructuring
+          this.selectedQuestion = this.questions[0];
+          this.advices = data.advices;
         });
     },
-    stopLoading(){
-          this.loading = false
-    }
-  }
-}
+    stopLoading() {
+      this.loading = false;
+    },
+  },
+};
 </script>
 
 <style>

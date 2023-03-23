@@ -27,6 +27,7 @@
   </div>
 </template>
 <script setup>
+// eslint-disable-next-line import/no-unresolved
 import AdviceCard from '@/components/AdviceCard.vue';
 </script>
 <script >
@@ -34,16 +35,16 @@ export default {
   data() {
     return {
 
-    }
+    };
   },
-    props: {
-    advices: Object
+  props: {
+    advices: Object,
   },
-    mounted(){
+  mounted() {
 
   },
-    methods: {
-        
-  }
-}
+  methods: {
+
+  },
+};
 </script>

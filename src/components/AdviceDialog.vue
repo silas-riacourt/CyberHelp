@@ -25,19 +25,19 @@
 export default {
   data() {
     return {
-showDialog: true
-    }
+      showDialog: true,
+    };
   },
-    props: {
+  props: {
     advice: Object,
   },
-    mounted(){
+  mounted() {
 
   },
-    methods: {
-        close(){
-            this.$emit('close')
-        }
-  }
-}
+  methods: {
+    close() {
+      this.$emit('close');
+    },
+  },
+};
 </script>

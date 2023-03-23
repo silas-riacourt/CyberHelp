@@ -30,27 +30,30 @@
   </v-card>
 </template>
 <script setup>
+// eslint-disable-next-line import/no-unresolved
 import AdviceDialog from '@/components/AdviceDialog.vue';
 </script>
 <script >
 export default {
+  components: {
+    AdviceDialog,
+  },
   data() {
     return {
-        showDialog: false
-    }
+      showDialog: false,
+    };
   },
-    props: {
+  props: {
     advice: Object,
-    index: Number
+    index: Number,
   },
-    mounted(){
+  mounted() {
 
   },
-    methods: {
-moreInfo(){
-    console.log("Plus d'informations")
-    this.showDialog = true
-}
-  }
-}
+  methods: {
+    moreInfo() {
+      this.showDialog = true;
+    },
+  },
+};
 </script>
